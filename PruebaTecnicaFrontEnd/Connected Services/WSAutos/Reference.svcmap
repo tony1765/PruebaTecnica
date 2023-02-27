@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2d5faa09-54e9-4b08-9480-b9e0af0bedec" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50482/Autos.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="31443caf-b0ac-44fb-afa1-dc661520c2d0" SourceId="1" SourceUrl="http://localhost:50482/Autos.svc?wsdl" />
+    <MetadataFile FileName="Autos.xsd" MetadataType="Schema" ID="85284a89-655c-4d72-a6df-db36cf2d3b8f" SourceId="1" SourceUrl="http://localhost:50482/Autos.svc?xsd=xsd0" />
+    <MetadataFile FileName="Autos1.xsd" MetadataType="Schema" ID="601d9520-ac6a-4b03-bf8c-793522973ea4" SourceId="1" SourceUrl="http://localhost:50482/Autos.svc?xsd=xsd2" />
+    <MetadataFile FileName="Autos.disco" MetadataType="Disco" ID="7fe185e4-5edb-4d23-9b0d-556880ff0c43" SourceId="1" SourceUrl="http://localhost:50482/Autos.svc?disco" />
+    <MetadataFile FileName="Autos11.xsd" MetadataType="Schema" ID="de96c530-3f51-439c-85fe-8feccf2ed201" SourceId="1" SourceUrl="http://localhost:50482/Autos.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
